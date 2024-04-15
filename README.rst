@@ -1,8 +1,10 @@
 cmaps
 =====
 
-New panoply colormaps added by Plutoset.
+**New panoply colormaps added by Plutoset.**
+
 ---
+
 
 Make it easier to use user defined colormaps in matplotlib. Default colormaps are from NCL_ website.
 
