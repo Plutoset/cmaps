@@ -17,8 +17,16 @@ def list_cmaps():
 
 if __name__ == '__main__':
     color = list_cmaps()
-
     a = np.outer(np.arange(0, 1, 0.001), np.ones(10))
+    # plotting each colormap
+    for i, k in enumerate(color):
+        plt.figure(figsize=(10, 1))
+        plt.axis('off')
+        plt.imshow(a.T, aspect='auto', cmap=getattr(cmaps, k), origin='lower')
+        plt.savefig(f'{k}.jpg', dpi=500, format='jpg', bbox_inches='tight',
+                    pad_inches=0.01)
+        plt.close()
+    # plotting all colormaps in one graph
     plt.figure(figsize=(40, 20))
     plt.subplots_adjust(top=0.95, bottom=0.05, left=0.01, right=0.99)
     ncmaps = len(color)
