@@ -734,7 +734,7 @@ would greatly appreciate it.
 
 如果您觉得我的项目对您有所帮助，可以给我买杯奶茶！
 
-![image](.donation/sponsor.png)
+see at .donation/sponsor.png
 
 Installation:
 
