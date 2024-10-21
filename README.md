@@ -1,6 +1,12 @@
 # cmaps
 
 ### NEW FEATURES ADDED BY PLUTOSET:
+
+UPDATED 20241021
+
+- Colormap generation codes and pdf outputs now available (see examples/plot_colormap.py and examples/colormap.pdf)
+
+---
 1. More colormaps from [Panoply colorbars[(https://www.giss.nasa.gov/tools/panoply/colorbars/) is now available.
 2. Visualization of colormaps is now available. Just pull down the README file and you will see it.
 3. changed README format from rst files to md files.
